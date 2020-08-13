@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body>   
+
+
+    <div class="container bg-light w-45 border rounded mt-5">
+        <p class="h3 m-3 text-center" > <b>Tabela IMC</b> </p>
+            
+        <table class="table text-center" >
+            <thead>
+                <tr>
+                    <th>IMC</th>
+                    <th>RESULTADO</th>
+                </tr>
+            </thead>
+            <Tbody>
+                <tr>
+                    <td>Menos do que 18.5</td>
+                    <td>Abaixo do peso</td=>
+                </tr>
+                <tr>
+                    <td>Entre 18.5 e 24.9</td>
+                    <td>Peso Normal</td>
+                </tr>
+                <tr>
+                    <td>Entre 25 e 29.9</td>
+                    <td>Sobrepeso</td>
+                </tr>
+                <tr>
+                    <td>Entre 30 e 34.9</td>
+                    <td>Obesidade grau 1</td>
+                </tr>
+                <tr>
+                    <td>Entre 35 e 39.9</td>
+                    <td>Obesidade grau 2</td>
+                </tr>
+                <tr>
+                    <td>Mais do que 40</td>
+                    <td>Obesidade grau 3</td>
+                </tr>
+            </Tbody>
+        </table>
+        <p class="h3 ml-3 mt-5 text-center"> <b>Calcule seu IMC</b> </p>
+        <form action="/" id="formulario" method="POST" >
+            <div class="form-group m-3">
+                <label for="peso">Peso:</label>
+                <input class="form-control form-control-mg mt-0" type="text" id="peso" name="peso">
+            </div>
+
+            <div class="form-group m-3">
+                <label for="altura">Altura:</label>
+                <input class="form-control form-control-mg mt-0" type="text" id="altura" name="altura">
+            </div>
+            <div class="form-group m-3">
+                <button class="btn btn-primary-2 btn-block " type="submit">Calcular</button>
+            </div>
+            
+            
+        </form>
+
+        <div class="h10 text-center" id="resultado">
+
+        </div>  
+
+        
+        
+
+    </div>
+    
+
+    
+<script src="js/main.js"></script>
+</body>
+
+</html>
