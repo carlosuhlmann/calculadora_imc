@@ -1,2 +1,5 @@
-# calculadora_imc
-Projeto simples de uma calculadora de imc para praticar html,css,bootstrap e javascript
+# Calculadora IMC
+
+Projeto simples que faz o calculo do IMC.
+
+Foi utilizado HTML, CSS, Bootstrap e Javascript
