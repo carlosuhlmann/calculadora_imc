@@ -17,7 +17,7 @@
 </div>
  
  <p align="center">
-  <img alt="Gerador de loterias" src="https://github.com/carlosuhlmann/calculadora_imc/blob/master/calc.jpg">
+  <img alt="Gerador de loterias" src="https://github.com/carlosuhlmann/calculadora_imc/blob/master/imc.gif">
  </p>
  
  ## Autor
