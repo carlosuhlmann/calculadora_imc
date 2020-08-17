@@ -3,7 +3,7 @@
 </h1>
 
 <p align="center">
-  Calculadora que mostra o índice de massa corporal conforme os dados inseridos pelo usuário. 
+  Calculadora que mostra o índice de massa corporal conforme os dados informados pelo usuário. 
 </p>
 
 <h2 align="center">
